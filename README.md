@@ -1,0 +1,1 @@
+# Working with redis cache is ASP.NET Core applications
