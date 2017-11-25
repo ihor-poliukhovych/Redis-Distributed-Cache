@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{37170413-3544-4D21-B5FE-A5A135C0E3FC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RedisDistributedCache/Startup.cs">
+    <Files>
+      <File FileName="RedisDistributedCache/Program.cs" Line="23" Column="25" />
+      <File FileName="RedisDistributedCache/Startup.cs" Line="36" Column="84" />
+      <File FileName="RedisDistributedCache/Controllers/ValuesController.cs" Line="10" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RedisDistributedCache" expanded="True">
+            <Node name="RedisDistributedCache" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RedisDistributedCache PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
