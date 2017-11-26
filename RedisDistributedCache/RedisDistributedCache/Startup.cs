@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using RedisDistributedCache.Cache;
+using RedisDistributedCache.Models;
 
 namespace RedisDistributedCache
 {
@@ -23,6 +25,8 @@ namespace RedisDistributedCache
 			{
 				options.Configuration = "localhost:6379";
 			});
+            
+            services.AddTransient<IDistributedCacheManager<int, MyComplexValue>, DistributedCacheManager<int, MyComplexValue>>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
